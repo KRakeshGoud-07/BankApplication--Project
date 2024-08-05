@@ -36,7 +36,7 @@ public class Mobiletransaction extends HttpServlet{
 	  
 	   
 	 
-	    String url="jdbc:mysql://localhost:3306/project1?user=root&password=password";
+	    String url="jdbc:mysql://localhost:3306/DatabaseSchemeName?user=userName&password=Userpassword";
 	    String select1 = "SELECT * FROM bank WHERE MobileNumber = ?  ";
 	      
 	   try {
