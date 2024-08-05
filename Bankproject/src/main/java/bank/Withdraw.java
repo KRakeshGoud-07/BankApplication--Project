@@ -31,7 +31,7 @@ public class Withdraw extends HttpServlet{
 	   Double Uamount = Double.parseDouble(useramount); 
 	   
 	 
-	    String url="jdbc:mysql://localhost:3306/project1?user=root&password=password";
+	    String url="jdbc:mysql://localhost:3306/databaseSchemeName?user=userName&password=userpassword";
 	    String select = "SELECT * FROM bank WHERE AccountNumber = ?  ";
 	  
 	   
