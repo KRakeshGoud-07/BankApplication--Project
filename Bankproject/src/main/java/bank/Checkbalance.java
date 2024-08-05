@@ -30,7 +30,7 @@ protected void doPost(HttpServletRequest req, HttpServletResponse res) throws IO
 	   String mb=req.getParameter("mobilenumber");
 	   String password=req.getParameter("password");
 	   
-	   String url="jdbc:mysql://localhost:3306/project1?user=root&password=password";
+	   String url="jdbc:mysql://localhost:3306/DatabaseName?user=Username&password=UserPassword";
 	    String select="SELECT * FROM bank WHERE MobileNumber=? AND Password=?";
 	   
 	   try {
