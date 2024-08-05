@@ -28,7 +28,7 @@ public class LoginPage extends HttpServlet {
 		String password= req.getParameter("password");
 		
 		
-		String url="jdbc:mysql://localhost:3306/project1?user=root&password=password";
+		String url="jdbc:mysql://localhost:3306/DatabaseName?user=userName&password=userpassword";
 		String select = "SELECT * FROM bank WHERE MobileNumber=? AND Password=?"; 
 		
 	   
