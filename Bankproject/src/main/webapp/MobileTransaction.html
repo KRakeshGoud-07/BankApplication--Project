@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Mobile Transaction</title>
+<style>
+div{
+  background-color: skyblue;
+  width:440px;
+  height:340px;
+  border-radius:20px;
+  margin-top:100px;
+}
+
+</style>
+</head>
+<body>
+<form action="transaction" method="post">
+<center>
+<div >
+<br>
+  <h1>Mobile Transaction</h1>
+  <h3>Sender Details :</h3>
+ <table>
+   <tr><td><label>Enter MobileNumber :</label></td>
+   <td><input placeholder="enter mobile number" name="mb1" type="text"></tr></tr>
+   
+  <tr><td><label>Enter Amount :</label></td>
+  <td><input placeholder="enter amount" type="text" name="amount"></tr></tr>
+  
+  <tr><td><label>Enter Password :</label></td>
+  <td><input placeholder="enter password" name="password" type="text"></td></tr>
+  
+  </table>
+ 
+   <h3>Reciever Details :</h3>
+   <table>
+   <tr><td><label>Enter mobileNumber :</label></td>
+   <td><input placeholder="enter mobile number" name="mb2" type="text"></td></tr>
+  
+  </table>
+  </div>
+  <br>
+  <input type="submit" value="submit">
+  
+
+</center>
+</form>
+</body>
+</html>
