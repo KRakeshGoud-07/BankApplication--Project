@@ -37,7 +37,7 @@ public class RegisterForm extends HttpServlet{
  		
  		Double amt = Double.parseDouble(uamount);
  		
- 		String url="jdbc:mysql://localhost:3306/project1?user=root&password=password";
+ 		String url="jdbc:mysql://localhost:3306/DatabaseSchemeName?user=Username&password=Userpassword";
  		String insert = "insert into bank"+"(Name,AccountNumber,MobileNumber,Amount,Password,EmailID,AadharID)"+"values(?,?,?,?,?,?,?)"; 
  		
  	   
